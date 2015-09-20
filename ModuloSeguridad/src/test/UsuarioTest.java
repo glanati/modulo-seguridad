@@ -13,7 +13,7 @@ public class UsuarioTest {
 	
 	public static void main(String[] args) {
 		EntityManagerFactory emf = 
-				Persistence.createEntityManagerFactory("Usuario");
+				Persistence.createEntityManagerFactory("Usuario");		//First change
 			EntityManager em = emf.createEntityManager();
 			
 			em.getTransaction().begin();
